@@ -1,15 +1,15 @@
 {
   "name": "one-webcrypto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Import the webcrypto API as a single module in both nodejs and browsers.",
   "repository": "https://github.com/fission-suite/one-webcrypto",
   "author": "Philipp Krüger <philipp@fission.codes>",
   "license": "MIT",
   "types": "index.d.ts",
-  "main": "browser.cjs",
+  "main": "dynamic.cjs",
   "exports": {
     ".": {
-      "browser": "./browser.cjs",
+      "browser": "./browser.mjs",
       "import": "./node.mjs",
       "require": "./node.cjs"
     },

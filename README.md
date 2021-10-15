@@ -55,6 +55,8 @@ Read more about it:
 
 We're also making use of webpack's pseudo-standard of the ["browser" flag](https://webpack.js.org/guides/package-exports/#target-environment) for imports.
 
+So if your environment doesn't support that, it _may_ or _may not_ work.
+
 We know that this setup works (*should work*) with
 * NodeJS 15+ (thus also e.g. mocha)
 * ESBuild
@@ -63,7 +65,7 @@ We know that this setup works (*should work*) with
 * Snowpack
 
 We know that this setup can have issues with
-* Jest with the jdom environment
+* [none known, yet?]
 
 If you have **any experience** (whether it supports the claims above or not), **please create an issue**.
 The idea is to help each other out in these crazy bundler times and document what works and what doesn't. :)
