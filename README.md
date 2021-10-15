@@ -62,6 +62,7 @@ We know that this setup works (*should work*) with
 * ESBuild
 * Webpack 5
 * Vite
+* SvelteKit
 * Snowpack
 
 We know that this setup can have issues with
