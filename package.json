@@ -6,10 +6,10 @@
   "author": "Philipp Krüger <philipp@fission.codes>",
   "license": "MIT",
   "types": "index.d.ts",
-  "main": "browser.js",
+  "main": "browser.cjs",
   "exports": {
     ".": {
-      "browser": "./browser.js",
+      "browser": "./browser.cjs",
       "import": "./node.mjs",
       "require": "./node.cjs"
     },
