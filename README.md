@@ -64,9 +64,10 @@ We know that this setup works (*should work*) with
 * Vite
 * SvelteKit
 * Snowpack
+* Parcel 2
 
 We know that this setup can have issues with
-* [none known, yet?]
+* Create React App
 
 If you have **any experience** (whether it supports the claims above or not), **please create an issue**.
 The idea is to help each other out in these crazy bundler times and document what works and what doesn't. :)
