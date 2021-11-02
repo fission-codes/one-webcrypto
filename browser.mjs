@@ -1,3 +1,3 @@
-const global = globalThis || window || self
+const _globalReference = globalThis || window || self
 
-export const webcrypto = global.crypto
+export const webcrypto = _globalReference.crypto

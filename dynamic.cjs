@@ -1,6 +1,6 @@
-const global = globalThis || window || self
+const _globalReference = globalThis || window || self
 
 module.exports = {
     // check the environment dynamically
-    webcrypto: global.crypto != null ? global.crypto : require('crypto').webcrypto
+    webcrypto: _globalReference.crypto != null ? _globalReference.crypto : require('crypto').webcrypto
 }
