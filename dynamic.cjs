@@ -1,6 +1,6 @@
-// check the environment dynamically
+const global = globalThis || window || self
 
-const isNode = typeof process === 'object'
-const webcrypto = isNode ? require('crypto').webcrypto : globalThis.crypto
-
-module.exports = { webcrypto }
+module.exports = {
+    // check the environment dynamically
+    webcrypto: global.crypto != null ? global.crypto : require('crypto').webcrypto
+}
