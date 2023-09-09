@@ -9,6 +9,7 @@
   "main": "dynamic.cjs",
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "browser": "./browser.mjs",
       "import": "./node.mjs",
       "require": "./node.cjs"
